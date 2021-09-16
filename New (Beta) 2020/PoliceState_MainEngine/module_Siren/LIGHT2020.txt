@@ -1,0 +1,356 @@
+private["_veh_l"];
+_veh_l = _this;
+while {alive _veh_l} do {
+	if (_veh_l animationPhase "ani_siren" > 0 && getdammage _veh_l < 0.9) then {
+		_veh_l setobjecttexture [1,"\tcg_taurus\textures\emerglights.paa"];
+		_LB1 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB1 lightAttachObject [ _veh_l, [ 0.54, -0.27, 1.60 ] ];
+		_LB1 setLightBrightness 0.005;
+		_LB1 setLightAmbient[ 0, 0, 1.0 ];
+		_LB1 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [3,"\tcg_taurus\textures\emerglights.paa"];
+		_LB3 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB3 lightAttachObject [ _veh_l, [ 0.22, -0.27, 1.60 ] ];
+		_LB3 setLightBrightness 0.001;
+		_LB3 setLightAmbient[ 0, 0, 1.0 ];
+		_LB3 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [7,"\tcg_taurus\textures\emerglights.paa"];
+		_LB7 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB7 lightAttachObject [ _veh_l, [ -0.36, -0.27, 1.60 ] ];
+		_LB7 setLightBrightness 0.001;
+		_LB7 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB7 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [1,""];
+		deleteVehicle _LB1;
+
+		_veh_l setobjecttexture [3,""];
+		deleteVehicle _LB3;
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [7,""];
+		deleteVehicle _LB7;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [1,"\tcg_taurus\textures\emerglights.paa"];
+		_LB1 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB1 lightAttachObject [ _veh_l, [ 0.54, -0.27, 1.60 ] ];
+		_LB1 setLightBrightness 0.005;
+		_LB1 setLightAmbient[ 0, 0, 1.0 ];
+		_LB1 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [3,"\tcg_taurus\textures\emerglights.paa"];
+		_LB3 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB3 lightAttachObject [ _veh_l, [ 0.22, -0.27, 1.60 ] ];
+		_LB3 setLightBrightness 0.001;
+		_LB3 setLightAmbient[ 0, 0, 1.0 ];
+		_LB3 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [2,"\tcg_taurus\textures\emerglights.paa"];
+		_LB2 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB2 lightAttachObject [ _veh_l, [ 0.36, -0.27, 1.60 ] ];
+		_LB2 setLightBrightness 0.001;
+		_LB2 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB2 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [1,""];
+		deleteVehicle _LB1;
+
+		_veh_l setobjecttexture [3,""];
+		deleteVehicle _LB3;
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [2,""];
+		deleteVehicle _LB2;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [1,"\tcg_taurus\textures\emerglights.paa"];
+		_LB1 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB1 lightAttachObject [ _veh_l, [ 0.54, -0.27, 1.60 ] ];
+		_LB1 setLightBrightness 0.005;
+		_LB1 setLightAmbient[ 0, 0, 1.0 ];
+		_LB1 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [3,"\tcg_taurus\textures\emerglights.paa"];
+		_LB3 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB3 lightAttachObject [ _veh_l, [ 0.22, -0.27, 1.60 ] ];
+		_LB3 setLightBrightness 0.001;
+		_LB3 setLightAmbient[ 0, 0, 1.0 ];
+		_LB3 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [7,"\tcg_taurus\textures\emerglights.paa"];
+		_LB7 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB7 lightAttachObject [ _veh_l, [ -0.36, -0.27, 1.60 ] ];
+		_LB7 setLightBrightness 0.001;
+		_LB7 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB7 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [1,""];
+		deleteVehicle _LB1;
+
+		_veh_l setobjecttexture [3,""];
+		deleteVehicle _LB3;
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [7,""];
+		deleteVehicle _LB7;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,"\tcg_taurus\textures\emerglights.paa"];
+		_LB8 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB8 lightAttachObject [ _veh_l, [ -0.54, -0.27, 1.60 ] ];
+		_LB8 setLightBrightness 0.005;
+		_LB8 setLightAmbient[ 1.0, 0, 0 ];
+		_LB8 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [6,"\tcg_taurus\textures\emerglights.paa"];
+		_LB6 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB6 lightAttachObject [ _veh_l, [ -0.22, -0.27, 1.60 ] ];
+		_LB6 setLightBrightness 0.001;
+		_LB6 setLightAmbient[ 1.0, 0, 0 ];
+		_LB6 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [2,"\tcg_taurus\textures\emerglights.paa"];
+		_LB2 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB2 lightAttachObject [ _veh_l, [ 0.36, -0.27, 1.60 ] ];
+		_LB2 setLightBrightness 0.001;
+		_LB2 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB2 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,""];
+		deleteVehicle _LB8;
+
+		_veh_l setobjecttexture [6,""];
+		deleteVehicle _LB6;
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [2,""];
+		deleteVehicle _LB2;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,"\tcg_taurus\textures\emerglights.paa"];
+		_LB8 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB8 lightAttachObject [ _veh_l, [ -0.54, -0.27, 1.60 ] ];
+		_LB8 setLightBrightness 0.005;
+		_LB8 setLightAmbient[ 1.0, 0, 0 ];
+		_LB8 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [6,"\tcg_taurus\textures\emerglights.paa"];
+		_LB6 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB6 lightAttachObject [ _veh_l, [ -0.22, -0.27, 1.60 ] ];
+		_LB6 setLightBrightness 0.001;
+		_LB6 setLightAmbient[ 1.0, 0, 0 ];
+		_LB6 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		_veh_l setobjecttexture [7,"\tcg_taurus\textures\emerglights.paa"];
+		_LB7 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB7 lightAttachObject [ _veh_l, [ -0.36, -0.27, 1.60 ] ];
+		_LB7 setLightBrightness 0.001;
+		_LB7 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB7 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,""];
+		deleteVehicle _LB8;
+
+		_veh_l setobjecttexture [6,""];
+		deleteVehicle _LB6;
+
+		_veh_l setobjecttexture [4,"\tcg_taurus\textures\emerglights.paa"];
+		_LB4 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB4 lightAttachObject [ _veh_l, [ 0.07, -0.27, 1.60 ] ];
+		_LB4 setLightBrightness 0.001;
+		_LB4 setLightAmbient[ 0, 0, 1.0 ];
+		_LB4 setLightColor[ 0, 0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [7,""];
+		deleteVehicle _LB7;
+
+		_veh_l setobjecttexture [4,""];
+		deleteVehicle _LB4;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,"\tcg_taurus\textures\emerglights.paa"];
+		_LB8 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB8 lightAttachObject [ _veh_l, [ -0.54, -0.27, 1.60 ] ];
+		_LB8 setLightBrightness 0.005;
+		_LB8 setLightAmbient[ 1.0, 0, 0 ];
+		_LB8 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [6,"\tcg_taurus\textures\emerglights.paa"];
+		_LB6 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB6 lightAttachObject [ _veh_l, [ -0.22, -0.27, 1.60 ] ];
+		_LB6 setLightBrightness 0.001;
+		_LB6 setLightAmbient[ 1.0, 0, 0 ];
+		_LB6 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		_veh_l setobjecttexture [2,"\tcg_taurus\textures\emerglights.paa"];
+		_LB2 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB2 lightAttachObject [ _veh_l, [ 0.36, -0.27, 1.60 ] ];
+		_LB2 setLightBrightness 0.001;
+		_LB2 setLightAmbient[ 1.0, 1.0, 1.0 ];
+		_LB2 setLightColor[ 1.0, 1.0, 1.0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [8,""];
+		deleteVehicle _LB8;
+
+		_veh_l setobjecttexture [6,""];
+		deleteVehicle _LB6;
+
+		_veh_l setobjecttexture [5,"\tcg_taurus\textures\emerglights.paa"];
+		_LB5 = "#lightpoint" createVehicleLocal getpos _veh_l;
+		_LB5 lightAttachObject [ _veh_l, [ -0.07, -0.27, 1.60 ] ];
+		_LB5 setLightBrightness 0.001;
+		_LB5 setLightAmbient[ 1.0, 0, 0 ];
+		_LB5 setLightColor[ 1.0, 0, 0 ];
+
+		sleep .02;
+
+		_veh_l setobjecttexture [5,""];
+		deleteVehicle _LB5;
+
+		sleep .02;
+
+		_veh_l setobjecttexture [2,""];
+		deleteVehicle _LB2;
+	} else {
+		waitUntil {sleep 3; (_veh_l animationPhase "ani_siren" > 0 && getdammage _veh_l < 0.9)};
+	};
+};
+exit;

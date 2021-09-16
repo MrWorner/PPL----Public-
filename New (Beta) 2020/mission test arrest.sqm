@@ -1,0 +1,598 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"CAAir2_F35B",
+		"ca_modules_silvie",
+		"ca_modules_animals",
+		"ca_modules_e_weather",
+		"CA_Modules_Alice",
+		"chernarus",
+		"ca_modules_clouds",
+		"CAWheeled3_M1030",
+		"cawheeled2_m998a2_avenger",
+		"caweapons_ammoboxes",
+		"cacharacters2",
+		"camisc_e",
+		"policestatemod_patrolunits",
+		"policestatemod_patrolpoint",
+		"policestatemod_visiblemarkers",
+		"policestatemod_rearm",
+		"policestatemod_hospital",
+		"cawheeled_acr_lr",
+		"policestatemod_investigationarea",
+		"CACharacters_W_BAF",
+		"cawheeled_w_baf",
+		"cawheeled_e_v3s",
+		"CAAir_E_UH1H_EP1",
+		"CAAir_E",
+		"caair_e_mi8",
+		"policestatemod_daycycle",
+		"policestatemod_prison",
+		"policestatemod_firestation",
+		"cawheeled_acr_t810",
+		"cacharacters_pmc",
+		"utes",
+		"CAWheeled",
+		"CAAir2_UH1Y",
+		"cacharacters_e"
+	};
+	addOnsAuto[]=
+	{
+		"ca_modules_silvie",
+		"ca_modules_animals",
+		"ca_modules_e_weather",
+		"ca_modules_clouds",
+		"CA_Modules_Alice",
+		"policestatemod_visiblemarkers",
+		"policestatemod_rearm",
+		"policestatemod_daycycle",
+		"policestatemod_prison",
+		"policestatemod_patrolpoint",
+		"policestatemod_patrolunits",
+		"policestatemod_firestation",
+		"policestatemod_hospital",
+		"cacharacters2",
+		"cacharacters_pmc",
+		"CAWheeled",
+		"CAAir2_UH1Y",
+		"cacharacters_e",
+		"caweapons_ammoboxes",
+		"cawheeled_e_v3s",
+		"cawheeled_acr_lr",
+		"camisc_e",
+		"cawheeled_acr_t810",
+		"utes"
+	};
+	randomSeed=2965807;
+	class Intel
+	{
+		startWeather=0;
+		forecastWeather=0;
+		year=2008;
+		month=10;
+		day=11;
+		hour=10;
+		minute=20;
+	};
+	class Groups
+	{
+		items=9;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					presence=0;
+					position[]={4098.1675,19.846468,3532.9856};
+					azimut=-22.980238;
+					id=0;
+					side="LOGIC";
+					vehicle="SilvieManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					presence=0;
+					position[]={4115.3804,20.984423,3544.8528};
+					azimut=-22.980238;
+					id=2;
+					side="LOGIC";
+					vehicle="BIS_animals_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={4117.3457,23.865629,3515.5215};
+					azimut=-22.980238;
+					id=3;
+					side="LOGIC";
+					vehicle="WeatherParticlesManager";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={4135.7476,24.908602,3523.8215};
+					azimut=-22.980238;
+					id=4;
+					side="LOGIC";
+					vehicle="BIS_clouds_Logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0;
+					position[]={4093.9932,19.731806,3523.1274};
+					azimut=-22.980238;
+					id=1;
+					side="LOGIC";
+					vehicle="AliceManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=8;
+				class Item0
+				{
+					position[]={4092.0054,21.161001,3448.1616};
+					id=8;
+					side="LOGIC";
+					vehicle="ESModule_VisibleMarkers_logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={4119.9302,21.954235,3461.7661};
+					id=9;
+					side="LOGIC";
+					vehicle="ESModule_BISAddWeaponsEastGangs_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={4133.7656,20.679583,3462.989};
+					id=10;
+					side="LOGIC";
+					vehicle="ESModule_BISAddWeaponsPOLICE_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					presence=0;
+					position[]={4130.4468,19.015665,3445.531};
+					id=11;
+					side="LOGIC";
+					vehicle="ESModule_DayCycle_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item4
+				{
+					presence=0;
+					position[]={4119.1064,19.974884,3446.1233};
+					id=12;
+					side="LOGIC";
+					vehicle="ESModule_RandomDayTime_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item5
+				{
+					position[]={4109.3784,22.942472,3461.9929};
+					id=13;
+					side="LOGIC";
+					vehicle="ESModule_Prison_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item6
+				{
+					position[]={4081.5366,23.371813,3467.9075};
+					id=5;
+					side="LOGIC";
+					vehicle="PoliceStateMod_PatrolPoint3_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+				class Item7
+				{
+					presence=0;
+					position[]={4071.937,22.048653,3470.0278};
+					id=6;
+					side="LOGIC";
+					vehicle="PoliceStateMod_PoliceStateMod_PatrolUnits_logic";
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3779.1174,19,3616.917};
+					id=14;
+					side="LOGIC";
+					vehicle="ESModule_FireStation_logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3818.4177,19,3601.9888};
+					id=16;
+					side="LOGIC";
+					vehicle="ESModule_Ambulance_logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3486.7095,18.89999,3546.0708};
+					azimut=-346.49301;
+					special="CARGO";
+					id=20;
+					side="CIV";
+					vehicle="Citizen1";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+				};
+			};
+		};
+		class Item6
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					presence=0;
+					position[]={3550.6338,18.930817,3566.9177};
+					azimut=-217.688;
+					special="NONE";
+					id=23;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					leader=1;
+					skill=0.60000002;
+					text="BlackWaterS1";
+				};
+				class Item1
+				{
+					presence=0;
+					position[]={3556.5452,19,3581.9246};
+					azimut=-217.688;
+					special="NONE";
+					id=24;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					skill=0.60000002;
+					text="BlackWaterS3";
+				};
+				class Item2
+				{
+					presence=0;
+					position[]={3557.9753,18.957952,3575.7957};
+					azimut=-102.895;
+					special="NONE";
+					id=22;
+					side="GUER";
+					vehicle="Soldier_Engineer_PMC";
+					skill=0.60000002;
+					text="BlackWaterS2";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3477.2358,19,3591.1877};
+					azimut=-630.95197;
+					special="CARGO";
+					id=25;
+					side="EAST";
+					vehicle="UAZ_RU";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.46666664;
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3477.2358,19,3591.1877};
+					id=25;
+					combatMode="BLUE";
+					combat="CARELESS";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={3754.7773,18.925301,3572.5308};
+					azimut=-88.871902;
+					special="FLY";
+					id=26;
+					side="WEST";
+					vehicle="UH1Y";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.59999996;
+				};
+				class Item1
+				{
+					position[]={3748.8657,18.931164,3556.8828};
+					azimut=-88.871902;
+					special="CARGO";
+					id=28;
+					side="WEST";
+					vehicle="GER_Soldier_EP1";
+					rank="LIEUTENANT";
+					skill=0.59999996;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=7;
+		class Item0
+		{
+			position[]={3711.1272,19,3615.3726};
+			azimut=226.96899;
+			id=7;
+			side="EMPTY";
+			vehicle="USBasicWeaponsBox";
+			skill=0.60000002;
+			text="zac";
+		};
+		class Item1
+		{
+			position[]={3792.4832,19,3619.2859};
+			azimut=-166.04401;
+			id=15;
+			side="EMPTY";
+			vehicle="V3S_Repair_TK_GUE_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="FireTruck_1";
+		};
+		class Item2
+		{
+			position[]={3812.7166,19,3622.1929};
+			azimut=215;
+			special="FLY";
+			id=17;
+			side="EMPTY";
+			vehicle="LandRover_Ambulance_Des_ACR";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={3330.0825,19,3595.448};
+			azimut=38.2458;
+			id=18;
+			side="EMPTY";
+			vehicle="Sign_sphere25cm_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="zzzzz2";
+			synchronizations[]={18};
+		};
+		class Item4
+		{
+			position[]={12185.233,158.95387,12723.459};
+			azimut=38.245804;
+			id=19;
+			side="EMPTY";
+			vehicle="USBasicWeaponsBox";
+			leader=1;
+			skill=0.60000002;
+			synchronizations[]={19};
+		};
+		class Item5
+		{
+			position[]={3700.5657,19,3616.2354};
+			azimut=46.581699;
+			special="FLY";
+			id=21;
+			side="EMPTY";
+			vehicle="T810_Des_ACR";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={3964.165,19,3582.834};
+			azimut=38.2458;
+			id=27;
+			side="EMPTY";
+			vehicle="Sign_sphere25cm_EP1";
+			leader=1;
+			skill=0.60000002;
+			text="zzzz1";
+			synchronizations[]={27};
+		};
+	};
+	class Sensors
+	{
+		items=3;
+		class Item0
+		{
+			position[]={4112.3071,22.142485,3531.7837};
+			angle=-22.980238;
+			activationBy="JULIET";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""PoliceState_MainEngine\ShowVar.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={4116.4321,23.678953,3524.145};
+			angle=-22.980238;
+			activationBy="ALPHA";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""PoliceState_MainEngine\TestScript.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={4113.9448,22.308088,3532.5896};
+			angle=-22.980238;
+			activationBy="INDIA";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""PoliceState_MainEngine\ShowVar2.sqf""";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"chernarus",
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=14261954;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"chernarus",
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=4943757;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"chernarus",
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=14060069;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};

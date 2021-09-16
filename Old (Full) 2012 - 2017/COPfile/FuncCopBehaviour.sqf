@@ -1,0 +1,1 @@
+//[_bullet] call _detectorB;

@@ -1,0 +1,719 @@
+
+
+loadScreen = "load.jpg";
+
+
+
+class CfgSounds
+{
+         sounds[] = {};
+		 
+		 #include "sound\cop2.hpp"
+		 #include "sound\cop3.hpp"
+		 #include "sound\cop4.hpp"
+		 #include "sound\cop5.hpp"
+		 #include "sound\cop6.hpp"
+		 #include "sound\cop7.hpp"
+		 #include "sound\cop8.hpp"
+		 #include "sound\cop9.hpp"
+		 #include "sound\cop10.hpp"
+         #include "sound\siren.hpp"
+		 #include "sound\fight.hpp"
+		 #include "sound\heli.hpp"
+		 #include "sound\react.hpp"
+		 #include "sound\Dispach.hpp"
+		 #include "sound\Otravlenie.hpp"
+		 #include "sound\Others.hpp"
+		 
+         class FirstContact1
+         {
+             name = "FirstContact1";
+             sound[] = {\sound\cop1\FirstContact1.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		   class FirstContact2
+         {
+             name = "FirstContact2";
+             sound[] = {\sound\cop1\FirstContact2.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class FirstContact3
+         {
+             name = "FirstContact3";
+             sound[] = {\sound\cop1\FirstContact3.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		   class FirstContact4
+         {
+             name = "FirstContact4";
+             sound[] = {\sound\cop1\FirstContact4.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		  
+		    class SPOT_GUN_01
+         {
+             name = "SPOT_GUN_01";
+             sound[] = {\sound\cop1\SPOT_GUN_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		    class SPOT_GUN_02
+         {
+             name = "SPOT_GUN_02";
+             sound[] = {\sound\cop1\SPOT_GUN_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		    class SPOT_GUN_03
+         {
+             name = "SPOT_GUN_03";
+             sound[] = {\sound\cop1\SPOT_GUN_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		    class SPOT_GUN_04
+         {
+             name = "SPOT_GUN_04";
+             sound[] = {\sound\cop1\SPOT_GUN_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		  
+		      class SPOT_WEAPON_01
+         {
+             name = "SPOT_WEAPON_01";
+             sound[] = {\sound\cop1\SPOT_WEAPON_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		  
+		       class SPOT_WEAPON_02
+         {
+             name = "SPOT_WEAPON_02";
+             sound[] = {\sound\cop1\SPOT_WEAPON_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		      class SPOT_WEAPON_03
+         {
+             name = "SPOT_WEAPON_03";
+             sound[] = {\sound\cop1\SPOT_WEAPON_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		      class SPOT_WEAPON_04
+         {
+             name = "SPOT_WEAPON_04";
+             sound[] = {\sound\cop1\SPOT_WEAPON_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		       class SURROUNDED_01
+         {
+             name = "SURROUNDED_01";
+             sound[] = {\sound\cop1\SURROUNDED_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class SURROUNDED_02
+         {
+             name = "SURROUNDED_02";
+             sound[] = {\sound\cop1\SURROUNDED_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class SURROUNDED_03
+         {
+             name = "SURROUNDED_03";
+             sound[] = {\sound\cop1\SURROUNDED_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class SURROUNDED_04
+         {
+             name = "SURROUNDED_04";
+             sound[] = {\sound\cop1\SURROUNDED_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class SURROUNDED_05
+         {
+             name = "SURROUNDED_05";
+             sound[] = {\sound\cop1\SURROUNDED_05.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  
+		        class CHASE_SOLO_01
+         {
+             name = "CHASE_SOLO_01";
+             sound[] = {\sound\cop1\CHASE_SOLO_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_02
+         {
+             name = "CHASE_SOLO_02";
+             sound[] = {\sound\cop1\CHASE_SOLO_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_03
+         {
+             name = "CHASE_SOLO_03";
+             sound[] = {\sound\cop1\CHASE_SOLO_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_04
+         {
+             name = "CHASE_SOLO_04";
+             sound[] = {\sound\cop1\CHASE_SOLO_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_05
+         {
+             name = "CHASE_SOLO_05";
+             sound[] = {\sound\cop1\CHASE_SOLO_05.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_06
+         {
+             name = "CHASE_SOLO_06";
+             sound[] = {\sound\cop1\CHASE_SOLO_06.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_07
+         {
+             name = "CHASE_SOLO_07";
+             sound[] = {\sound\cop1\CHASE_SOLO_07.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		        class CHASE_SOLO_08
+         {
+             name = "CHASE_SOLO_08";
+             sound[] = {\sound\cop1\CHASE_SOLO_08.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		       class ARREST_PLAYER_01
+         {
+             name = "ARREST_PLAYER_01";
+             sound[] = {\sound\cop1\ARREST_PLAYER_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		     class ARREST_PLAYER_03
+         {
+             name = "ARREST_PLAYER_03";
+             sound[] = {\sound\cop1\ARREST_PLAYER_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class FIGHT_01
+         {
+             name = "FIGHT_01";
+             sound[] = {\sound\cop1\FIGHT_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		      class FIGHT_02
+         {
+             name = "FIGHT_02";
+             sound[] = {\sound\cop1\FIGHT_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		      class FIGHT_03
+         {
+             name = "FIGHT_03";
+             sound[] = {\sound\cop1\FIGHT_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		      class FIGHT_04
+         {
+             name = "FIGHT_04";
+             sound[] = {\sound\cop1\FIGHT_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		      class FIGHT_05
+         {
+             name = "FIGHT_05";
+             sound[] = {\sound\cop1\FIGHT_05.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		       class FIGHT_06
+         {
+             name = "FIGHT_06";
+             sound[] = {\sound\cop1\FIGHT_06.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		      class INTIMIDATE_01
+         {
+             name = "INTIMIDATE_01";
+             sound[] = {\sound\cop1\INTIMIDATE_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class INTIMIDATE_02
+         {
+             name = "INTIMIDATE_02";
+             sound[] = {\sound\cop1\INTIMIDATE_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class ARREST_PED_01
+         {
+             name = "ARREST_PED_01";
+             sound[] = {\sound\cop1\ARREST_PED_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 
+		     class ARREST_PED_02
+         {
+             name = "ARREST_PED_02";
+             sound[] = {\sound\cop1\ARREST_PED_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 
+		 
+		 
+		     class INTIMIDATE_03
+         {
+             name = "INTIMIDATE_03";
+             sound[] = {\sound\cop1\INTIMIDATE_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 
+		     class INTIMIDATE_04
+         {
+             name = "INTIMIDATE_04";
+             sound[] = {\sound\cop1\INTIMIDATE_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 
+		 
+		 
+		 
+		     class GET_OUT_OF_CAR_SHOUT_01
+         {
+             name = "GET_OUT_OF_CAR_SHOUT_01";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_SHOUT_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	 
+		     class GET_OUT_OF_CAR_SHOUT_02
+         {
+             name = "GET_OUT_OF_CAR_SHOUT_02";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_SHOUT_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  	 
+		     class GET_OUT_OF_CAR_SHOUT_03
+         {
+             name = "GET_OUT_OF_CAR_SHOUT_03";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_SHOUT_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   	 
+		     class GET_OUT_OF_CAR_SHOUT_04
+         {
+             name = "GET_OUT_OF_CAR_SHOUT_04";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_SHOUT_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class DUCK_01
+         {
+             name = "DUCK_01";
+             sound[] = {\sound\cop1\DUCK_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  class DUCK_02
+         {
+             name = "DUCK_02";
+             sound[] = {\sound\cop1\DUCK_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  class DUCK_03
+         {
+             name = "DUCK_03";
+             sound[] = {\sound\cop1\DUCK_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  class DUCK_04
+         {
+             name = "DUCK_04";
+             sound[] = {\sound\cop1\DUCK_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+	
+		   class TAKE_COVER_01
+         {
+             name = "TAKE_COVER_01";
+             sound[] = {\sound\cop1\TAKE_COVER_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	   class TAKE_COVER_02
+         {
+             name = "TAKE_COVER_02";
+             sound[] = {\sound\cop1\TAKE_COVER_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	   class TAKE_COVER_03
+         {
+             name = "TAKE_COVER_03";
+             sound[] = {\sound\cop1\TAKE_COVER_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	   class TAKE_COVER_04
+         {
+             name = "TAKE_COVER_04";
+             sound[] = {\sound\cop1\TAKE_COVER_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	   class TAKE_COVER_05
+         {
+             name = "TAKE_COVER_05";
+             sound[] = {\sound\cop1\TAKE_COVER_05.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  	   class OFFICER_DOWN_01
+         {
+             name = "OFFICER_DOWN_01";
+             sound[] = {\sound\cop1\OFFICER_DOWN_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 	   class OFFICER_DOWN_02
+         {
+             name = "OFFICER_DOWN_02";
+             sound[] = {\sound\cop1\OFFICER_DOWN_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class OFFICER_DOWN_03
+         {
+             name = "OFFICER_DOWN_03";
+             sound[] = {\sound\cop1\OFFICER_DOWN_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class FALL_BACK_01
+         {
+             name = "FALL_BACK_01";
+             sound[] = {\sound\cop1\FALL_BACK_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class FALL_BACK_02
+         {
+             name = "FALL_BACK_02";
+             sound[] = {\sound\cop1\FALL_BACK_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class FALL_BACK_03
+         {
+             name = "FALL_BACK_03";
+             sound[] = {\sound\cop1\FALL_BACK_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class GET_OUT_OF_CAR_MEGAPHONE_01
+         {
+             name = "GET_OUT_OF_CAR_MEGAPHONE_01";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_MEGAPHONE_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class GET_OUT_OF_CAR_MEGAPHONE_02
+         {
+             name = "GET_OUT_OF_CAR_MEGAPHONE_02";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_MEGAPHONE_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class GET_OUT_OF_CAR_MEGAPHONE_03
+         {
+             name = "GET_OUT_OF_CAR_MEGAPHONE_03";
+             sound[] = {\sound\cop1\GET_OUT_OF_CAR_MEGAPHONE_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		    class PULL_OVER_01
+         {
+             name = "PULL_OVER_01";
+             sound[] = {\sound\cop1\PULL_OVER_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class PULL_OVER_02
+         {
+             name = "PULL_OVER_02";
+             sound[] = {\sound\cop1\PULL_OVER_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		     class PULL_OVER_03
+         {
+             name = "PULL_OVER_03";
+             sound[] = {\sound\cop1\PULL_OVER_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+	
+	
+	    class PULL_OVER_WARNING_01
+         {
+             name = "PULL_OVER_WARNING_01";
+             sound[] = {\sound\cop1\PULL_OVER_WARNING_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 class PULL_OVER_WARNING_02
+         {
+             name = "PULL_OVER_WARNING_02";
+             sound[] = {\sound\cop1\PULL_OVER_WARNING_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  class PED_SHOT_01
+         {
+             name = "PED_SHOT_01";
+             sound[] = {\sound\cop1\PED_SHOT_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class PED_SHOT_02
+         {
+             name = "PED_SHOT_02";
+             sound[] = {\sound\cop1\PED_SHOT_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class PED_SHOT_03
+         {
+             name = "PED_SHOT_03";
+             sound[] = {\sound\cop1\PED_SHOT_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class PED_SHOT_04
+         {
+             name = "PED_SHOT_04";
+             sound[] = {\sound\cop1\PED_SHOT_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		  class TARGET_01
+         {
+             name = "TARGET_01";
+             sound[] = {\sound\cop1\TARGET_01.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class TARGET_02
+         {
+             name = "TARGET_02";
+             sound[] = {\sound\cop1\TARGET_02.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class TARGET_03
+         {
+             name = "TARGET_03";
+             sound[] = {\sound\cop1\TARGET_03.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class TARGET_04
+         {
+             name = "TARGET_04";
+             sound[] = {\sound\cop1\TARGET_04.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		   class TARGET_05
+         {
+             name = "TARGET_05";
+             sound[] = {\sound\cop1\TARGET_05.ogg, db+00, 1.0};
+             titles[] = {0, "  "};
+         };
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+};
+
+
+class CfgMusic
+{
+	tracks[] = {};
+
+	class effect1
+	{
+		name = "effect1";
+		sound[] = {\music\effect1.ogg, db + 0, 1.0};
+	};
+	
+	class effect2
+	{
+		name = "effect2";
+		sound[] = {\music\effect2.ogg, db + 0, 1.0};
+	};
+	
+	class effect3
+	{
+		name = "effect3";
+		sound[] = {\music\effect3.ogg, db + 0, 1.0};
+	};
+	class effect4
+	{
+		name = "effect4";
+		sound[] = {\music\effect4.ogg, db + 0, 1.0};
+	};
+	class effect5
+	{
+		name = "effect5";
+		sound[] = {\music\effect5.ogg, db + 0, 1.0};
+	};
+	
+	class effect6
+	{
+		name = "effect6";
+		sound[] = {\music\effect6.ogg, db + 0, 1.0};
+	};
+	class effect7
+	{
+		name = "effect7";
+		sound[] = {\music\effect7.ogg, db + 0, 1.0};
+	};
+	class effect8
+	{
+		name = "evil";
+		sound[] = {\music\effect8.ogg, db + 0, 1.0};
+	};
+	class effect9
+	{
+		name = "HT1";
+		sound[] = {\music\effect9.ogg, db + 0, 1.0};
+	};
+	class effect10
+	{
+		name = "HT2";
+		sound[] = {\music\effect10.ogg, db + 0, 1.0};
+	};
+	class effect11
+	{
+		name = "HT3";
+		sound[] = {\music\effect11.ogg, db + 0, 1.0};
+	};
+	class effect12
+	{
+		name = "HT4";
+		sound[] = {\music\effect12.ogg, db + 0, 1.0};
+	};
+	class effect13
+	{
+		name = "Amer";
+		sound[] = {\music\effect13.ogg, db + 0, 1.0};
+	};
+	class effect14
+	{
+		name = "22";
+		sound[] = {\music\effect14.ogg, db + 0, 1.0};
+	};
+	class HT1
+	{
+		name = "HT1";
+		sound[] = {\music\HT1.ogg, db + 0, 1.0};
+	};
+	
+	class HT2
+	{
+		name = "HT2";
+		sound[] = {\music\HT2.ogg, db + 0, 1.0};
+	};
+	
+	class HT3
+	{
+		name = "HT3";
+		sound[] = {\music\HT3.ogg, db + 0, 1.0};
+	};
+	class HT4
+	{
+		name = "HT4";
+		sound[] = {\music\HT4.ogg, db + 0, 1.0};
+	};
+	};
+	
+	
+	
+	class CfgIdentities
+{
+	class OldMike2
+	{
+		name="OldMike";
+		face="Face77";
+		glasses="gasmask";
+		speaker="Male02RU";
+		pitch=1.0;
+	};
+	class OldMike1
+	{
+		name="OldMike";
+		face="Face77";
+		glasses="headset";
+		speaker="Male02RU";
+		pitch=1.0;
+	};
+	class OldMike3
+	{
+		name="OldMike";
+		face="Face77";
+		glasses="";
+		speaker="Male02RU";
+		pitch=1.0;
+	};
+		class Said
+	{
+		name="Said";
+		face="Face09_EP1";
+		glasses="RedSun";
+		speaker="Male02TAK";
+		pitch=1.0;
+	};
+};
+
+
+
+#include "hpp\common.hpp"
+#include "GunShop\RscDefines.hpp"
+#include "GunShop\animDlg.hpp"
+
+
+class RscTitles {
+    #include "hpp\hud.hpp"
+};

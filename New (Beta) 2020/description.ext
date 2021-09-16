@@ -1,0 +1,24 @@
+
+#include "PoliceState_Resources\2017_classes.hpp"
+
+#include "PoliceState_Resources\module_HUD\ActionsGUI.hpp"
+
+#include "PoliceState_Resources\module_Phone\PhoneOld.hpp"
+
+#include "PoliceState_Resources\module_Taxi\TaxiGUI.hpp"
+
+#include "PoliceState_Resources\module_Shop\Cafe.hpp"
+#include "PoliceState_Resources\module_Shop\FastFood.hpp"
+#include "PoliceState_Resources\module_Shop\Pizza.hpp"
+#include "PoliceState_Resources\module_Shop\GasStation.hpp"
+#include "PoliceState_Resources\module_Shop\RepairStation.hpp"
+#include "PoliceState_Resources\module_Shop\CarSeller.hpp"
+#include "PoliceState_Resources\module_Shop\GunShop.hpp"
+#include "PoliceState_Resources\module_Shop\CarShop.hpp"
+#include "PoliceState_Resources\module_Shop\OFP_shop.hpp"
+
+#include "PoliceState_Resources\module_Inventory\PlayerInventory.hpp"
+
+#include "PoliceState_Resources\AI_Medics\Hospital.hpp"
+
+

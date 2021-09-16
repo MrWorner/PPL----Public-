@@ -1,0 +1,56 @@
+//func_CopSay_GetOut_Veh.sqf
+private["_COP","_this","_WhatToSay"];
+_COP = _this;
+
+
+if(isnull _COP)exitwith{};
+
+switch (_COP getVariable "Voice") do 
+{
+	case "Cop1": 
+	{ 
+		_WhatToSay = Voice_Cop1_GetOut_Veh select round random ((count Voice_Cop1_GetOut_Veh) - 1);
+	};
+	case "Cop2": 
+	{
+		_WhatToSay = Voice_Cop2_GetOut_Veh select round random ((count Voice_Cop2_GetOut_Veh) - 1);
+	};	
+	case "Cop3": 
+	{
+		_WhatToSay = Voice_Cop3_GetOut_Veh select round random ((count Voice_Cop3_GetOut_Veh) - 1);
+	};	
+	case "Cop4": 
+	{
+		_WhatToSay = Voice_Cop4_GetOut_Veh select round random ((count Voice_Cop4_GetOut_Veh) - 1);
+	};	
+	case "Cop5": 
+	{
+		_WhatToSay = Voice_Cop5_GetOut_Veh select round random ((count Voice_Cop5_GetOut_Veh) - 1);
+	};	
+	case "Cop6": 
+	{
+		_WhatToSay = Voice_Cop6_GetOut_Veh select round random ((count Voice_Cop6_GetOut_Veh) - 1);
+	};	
+	case "Cop7": 
+	{
+		_WhatToSay = Voice_Cop7_GetOut_Veh select round random ((count Voice_Cop7_GetOut_Veh) - 1);
+	};	
+	case "Cop8": 
+	{
+		_WhatToSay = Voice_Cop8_GetOut_Veh select round random ((count Voice_Cop8_GetOut_Veh) - 1);
+	};	
+	case "Cop9": 
+	{
+		_WhatToSay = Voice_Cop9_GetOut_Veh select round random ((count Voice_Cop9_GetOut_Veh) - 1);
+	};	
+	case "Cop10": 
+	{
+		_WhatToSay = Voice_Cop10_GetOut_Veh select round random ((count Voice_Cop10_GetOut_Veh) - 1);
+	};	
+	default { hint "func_CopSay_GetOut_Veh default" };
+};
+
+if(isnil "_WhatToSay")exitwith{hintc format ["Error in func_CopSay_GetOut_Veh Voice: %1", (_COP getVariable "Voice") ]; };
+
+	//_COP say [sound, maxTitlesDistance, speed];
+	_COP say _WhatToSay;

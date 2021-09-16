@@ -1,0 +1,56 @@
+https://community.bistudio.com/wiki/Category:Dialogs
+https://community.bistudio.com/wiki/User_Interface_Event_Handlers
+
+http://www.armaholic.com/forums.php?m=posts&q=24673
+http://www.ofpec.com/forum/index.php?topic=34539.0
+https://forums.bistudio.com/topic/94853-dialogs-and-listboxcombobox-creation/
+
+
+
+
+
+
+
+
+
+// _ajajajja = createdialog "DIALOG_ModuleTaxi_Map";
+
+
+
+//module_HUD
+DIALOG_PhoneOld //idd = 50100
+
+//module_HUD
+DIALOG_ActionsWindow //idd = 50200
+
+//module_Taxi
+DIALOG_ModuleTaxi_Map	//idd = 50000
+
+//module_Shop
+DIALOG_Cafe1	//idd = 50300
+DIALOG_FastFood1 //idd = 50400
+DIALOG_Pizza1 //idd = 50500
+DIALOG_GasStation //idd = 50600
+GasStation_Fuel //idd = 50700
+DIALOG_RepairStation //idd = 50800
+DIALOG_RepairStation_Repair //idd = 50900
+DIALOG_CarSeller //idd = 51000
+DIALOG_CarSeller_sell //idd = 51100
+DIALOG_Hospital //idd = 51200
+DIALOG_Hospital_heal //idd = 51300
+DIALOG_GunShop //idd = 51400
+DIALOG_CarShop // 51500
+DIALOG_PlayerInventory //51600
+DIALOG_OFPshop //51700
+
+
+
+
+
+
+
+
+
+
+
+
